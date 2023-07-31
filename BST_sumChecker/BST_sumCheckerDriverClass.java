@@ -47,21 +47,7 @@ public class BST_sumCheckerDriverClass {
 		scn.close();
 	}
 
-	private void postOrder(Node root) {
-		if (root != null) {
-			postOrder(root.left);
-			postOrder(root.right);
-			System.out.print(root.data + " ");
-		}
-	}
-
-	private void preOrder(Node root) {
-		if (root != null) {
-			System.out.print(root.data + " ");
-			preOrder(root.left);
-			preOrder(root.right);
-		}
-	}
+	
 
 	private void inOrder(Node root) {
 		if (root != null) {
